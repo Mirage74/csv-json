@@ -1,0 +1,23 @@
+module.exports  = {
+  imagesPerOneIteration : 500,
+  fixName : "fixtures.js",
+  inputFile : "image_download_test_data.csv",
+  output_img_DIR : "images",
+  beginURL : "http",
+  endURL : "jpg",
+  ignoreAspectRatio : true,
+  newSizesInPixels : [300, 800],
+  imagesPerOneIterationResize : 500,
+  imageFileExt : ["AI", "Bmp", "gif", "icO", "jpeg","jPg", "png", "ps", "psd", "svg", "tif", "tiff"],
+  resCodeSuccess : "s",
+  resCodes : [['403', 'f'], ['404', 'n'], ['EACCES', 'a'], ['ETIMEDOUT', 't']],
+  resCodeUnknown : "u",
+  DB_schema : "adminProcesses",
+  DB_host : "82.13.34.152",
+  DB_port :  "52000",
+  DB_userName : "asandr6489b",
+  DB_password : "T<MLJgetFJZ&53Vy",
+  DB_Table_data_proc : "ad_image_processing",
+  DB_Table_data_res : "ad_image_dl_results",
+  DB_queryImgURL : "select sourceImageID, sourceUrl, saveLocation, fileName, processType from ad_image_processing where saveSuccessful = 0 and fileArchived = 0 and ignore_file = 0"
+}

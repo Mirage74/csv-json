@@ -1,0 +1,15 @@
+{
+  "name": "ddimages",
+  "version": "1.0.0",
+  "author": "Balex <balexvicx@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "n-readlines": "^1.0.0"
+  }
+}
